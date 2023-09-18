@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Janes hemsida</title>
     <link rel="stylesheet" href="Minhemsida.css"></link>
+    <style>
+        .flex-container {
+            display:flex;
+            flex-direction: row;
+            justify-content:center;
+        }
+
+    </style>
 </head>
 
 <body>
     <h1> Välkommen</h1>
-
-    <nav style="margin-top:20%;
-    text-align:center;">
-        <a href="About me.html"> Om mig</a>
-        <!-- Tillägg om mig, kontakta mig samt bilder-->
-        <a href="./Contact me.html"> Kontakta mig</a>
-        <a href="Pictures.html"> Bilder</a>
-    </nav>
+    <div class="flex-container">
+        <div> <a href="About me.html" target="_blank">Om mig</a> </div>
+        <div> <a href="Contact me.html" target="_blank"> Kontakta mig</a> </div>
+        <div> <a href="Pictures.html" target="_blank"> Bilder</a> </div>
+        </div>
 
 </body>
 </html>
