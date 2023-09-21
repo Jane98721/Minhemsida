@@ -1,0 +1,18 @@
+body{ 
+    background-image: url("../Images/Bild\ kroatien.jpg");
+    background-repeat: repeat-y;
+    background-size:cover;
+    }
+h1{
+    color:aqua;
+    text-align:center;
+}
+a{ 
+    color:black;
+    font-size:200%;
+}
+.flex-container{
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
