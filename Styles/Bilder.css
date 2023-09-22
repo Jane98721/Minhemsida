@@ -5,10 +5,27 @@ img{
     margin-top:10px;
     margin-bottom: 20px;
     margin-left:300 px;
-;
 }
 
 body{ 
     background-color: rgb(240, 240, 240)
 
+}
+
+@media screen and (max-width: 600px;) {
+    body {
+        font-size 10px;
+    }
+}
+
+@media screen and (min-width: 300px;) {
+    body {
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-widht: 768px;) {
+    body {
+        font-size 8px;
+    }
 }

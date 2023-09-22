@@ -4,17 +4,35 @@ body{
     background-attachment: fixed;
     background-size:cover;
    }
-   
-   @media(min-width: 450px) {
-}
 
 h1{
     color:aqua;
     text-align:center;
     font-size: 50px;    
 }
-a{ 
+a { 
     color:black;
     font-size: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    }
+
+@media screen and (max-width: 600px;) {
+    body {
+        font-size 10px;
+    }
+}
+
+@media screen and (min-width: 300px;) {
+    body {
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-widht: 768px;) {
+    body {
+        font-size 8px;
+    }
 }
 
