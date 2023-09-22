@@ -5,14 +5,8 @@ body{
     background-size:cover;
    }
    
- body{
-    background-color: pink;
-    }
-    @media screen and (min width: 450px;)
-  body{
-        background-color: grey;
-    }
-    
+   @media(min-width: 450px) {
+}
 
 h1{
     color:aqua;

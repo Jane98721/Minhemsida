@@ -28,12 +28,11 @@ img{
     border-radius: 4px;
     background-color: white;
  }
-    input[type=button], input[type=submit], input[type=reset] {
+    input[type=button] {
         background-color: white;
-        border: none;
         color: black;
-        padding: 20px 10px;
+        padding: 20px 20px;
         text-decoration: none;
-        margin: 8px;
+        margin: 5px;
         cursor: pointer;
     }
