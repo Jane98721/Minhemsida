@@ -7,6 +7,33 @@ img{
     border-radius: 15px;
     float:right
 }
-table{
-    
-}
+ ul{
+    list-style-type: circle;
+ }
+ input {width: 100px;}
+
+ input [type text] {
+    width: 100px;
+    padding: 20px;
+    margin:8px 0;
+    box-sizing: border-box;
+ }
+
+ textarea{
+    width: 50%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #040404;
+    border-radius: 4px;
+    background-color: white;
+ }
+    input[type=button], input[type=submit], input[type=reset] {
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 20px 10px;
+        text-decoration: none;
+        margin: 8px;
+        cursor: pointer;
+    }

@@ -1,18 +1,26 @@
 body{ 
     background-image: url("../Images/Bild\ kroatien.jpg");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size:cover;
+   }
+   
+ body{
+    background-color: pink;
     }
+    @media screen and (min width: 450px;)
+  body{
+        background-color: grey;
+    }
+    
+
 h1{
     color:aqua;
     text-align:center;
+    font-size: 50px;    
 }
 a{ 
     color:black;
-    font-size:200%;
+    font-size: 50px;
 }
-.flex-container{
-    margin-top: 200px;
-    margin-right: 100px;
-    margin-left: 100px;
-}
+
